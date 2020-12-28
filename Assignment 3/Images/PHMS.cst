@@ -1,0 +1,75 @@
+998 Type:           SystemStar estimate
+0   Written:        11/08/20 14:51:07
+900 File Version:   9003
+901 SW Version:     Demo
+902 Build:          3.0.3.1003
+904 Sequence Number:00257123760506842432248022215
+905 Version:        SystemStar 3.0 Demo
+906 Serial Number:  83 - 01126                              
+estcreate "PHMS"
+dbselect "COCOMO_II.2000_Waterfall"
+calcmodel intermediate
+prec 4
+flex 4
+resl 5
+team 5
+pmat 5
+wsname *
+amcf *
+wsstartpoint 2
+rename "Component1"
+ACAP     high
+AEXP     high
+DATA     high
+PCAP     high
+RELY      low
+TIME     high
+CD01     high
+CD03     high
+CD04      low
+wsslocdist y  0 1        5000
+RQCOST      0
+PDCOST      0
+DDCOST      0
+CTCOST      0
+ITCOST      0
+MNCOST      0
+increment 1
+set auto on
+910 Lines:                       44
+911 Characters:                 698
+912 File Size:                  996
+913 Checksum 1:                  51
+914 Checksum 2:                 227
+915 Checksum 3: 0462233777753467837
+1000 "PHMS"
+1001 "    "
+1002 152
+1003  100
+1004   1.0000
+1006       8.2381
+1007       8.2381
+1008   0.5642
+1009       6.8677
+1010       6.8677
+1011         5000
+1012         5000
+1013    0.9958
+1014    0.2972
+1015 2
+1016 4
+1017 4
+1018 5
+1019 5
+1020 5
+1021    0
+1022    2.9400
+1023   0.91000
+1024   1.00000
+1025    3.6700
+1026   0.28000
+1027   0.20000
+1028   0.08580
+1029   0.00000
+1030 s
+1031 ""
